@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice's Playlist Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">Ice's Hub</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Your Library</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <p>&copy; 2024 Ice's Playlist Hub</p>
+            </footer>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <header>
+                <h1>Explore Playlists</h1>
+            </header>
+            <section class="playlists" id="playlists">
+                <!-- เพลย์ลิสต์จะถูกแสดงจาก JavaScript -->
+            </section>
+            <div id="player" class="player">
+                <h2>Now Playing: <span id="song-title">No song playing</span></h2>
+                <audio id="audio-player" controls>
+                    <source id="audio-source" src="" type="audio/mp3">
+                </audio>
+            </div>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
